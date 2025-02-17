@@ -1,6 +1,6 @@
 import ecranFront from "@/assets/images/ecran-front2.png";
 import kris from "@/assets/images/kris.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+// import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
