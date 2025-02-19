@@ -45,31 +45,45 @@ const toolboxItems = [
 const hobbies =[
   {
     title: 'Cinema',
-    emoji: '🎬' 
+    emoji: '🎬',
+    left: '5%',
+    top: '5%',
   },
   {
     title: 'Randonnée',
-    emoji: '🥾'
+    emoji: '🥾',
+    left: '50%',
+    top: '5%',
   },
   {
     title: 'Voyages',
-    emoji: '✈️'
+    emoji: '✈️',
+    left: '10%',
+    top: '35%',
   },
   {
     title: 'Gaming',
-    emoji: '🎮'
+    emoji: '🎮',
+    left: '35%',
+    top: '40%',
   },
   {
     title: 'Cuisine',
-    emoji: '🍳'
+    emoji: '🍳',
+    left: '70%',
+    top: '45%',
   },
   {
     title: 'Fitness',
-    emoji: '🏋️‍♂️'
+    emoji: '🏋️‍♂️',
+    left: '5%',
+    top: '65%',
   },
   {
     title: 'Lecture',
-    emoji: '📚'
+    emoji: '📚',
+    left: '45%',
+    top: '70%',
   },
 ]
 
@@ -102,22 +116,27 @@ export const AboutSection = () => {
 itemsWrapperClassName="-translate-x-1/2"
 />
       </Card>
-      <Card>
-        <CardHeader title="Mes passions" description="Explorez mes passions et inspirations au delà du digital" />
+      <Card className="h-[320px] p-0 flex flex-col">
+        <CardHeader title="Mes passions" 
+        description="Explorez mes passions et inspirations au delà du digital."
+        className="px-6 py-6"
+        />
 
-<div>
+<div className="relative flex-1">
   {hobbies.map(hobby => (
-    <div key={hobby.title} className="inline-flex gap-2 px-6">
-      <span>{hobby.title}</span>
+    <div key={hobby.title} className="inline-flex items-center gap-2 px-6 bg-gradient-to-r from-emerald-300 to-sky-400 rounded-full py-1.5 absolute" style={{ left: hobby.left, top: hobby.top }}>
+      <span className="font-medium text-gray-950">{hobby.title}</span>
       <span>{hobby.emoji}</span>
 </div>
   ))}
 </div>
 
       </Card>
-      <Card>
-<Image src={mapImage} alt="carte du 74800" />
-<Image src={smileMemoji} alt="memoji souriant" />
+      <Card className="h-[320px] p-0 relative">
+<Image src={mapImage} alt="carte du 74800" className="h-full w-full object-cover" />
+<div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-20 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 after:content-[''] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full after:outline-gray-950/30">
+<Image src={smileMemoji} alt="memoji souriant" className="size-20" />
+</div>
       </Card>
       </div>
     </div>
