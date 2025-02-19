@@ -136,7 +136,9 @@ itemsWrapperClassName="animate-move-right [animation-duration:15s]"
       </Card>
       <Card className="h-[320px] p-0 relative md:col-span-2 lg:col-span-1">
 <Image src={mapImage} alt="carte du 74800" className="h-full w-full object-cover" />
-<div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-20 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 after:content-[''] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full after:outline-gray-950/30">
+<div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-20 rounded-full  after:content-[''] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full after:outline-gray-950/30">
+<div className="absolute inset-0 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 -z-20 animate-ping [animation-duration:2s]"></div>
+<div className="absolute inset-0 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 -z-10"></div>
 <Image src={smileMemoji} alt="memoji souriant" className="size-20" />
 </div>
       </Card>
