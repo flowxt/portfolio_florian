@@ -16,9 +16,13 @@ export const ContactSection = () => {
     <p className="text-sm mt-2 md:text-base">Prêt à donner vie à votre prochain projet ? Discutons ensemble de la façon dont je peux vous aider à atteindre vos objectifs.</p>
     </div>
     <div>
-    <button className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 mt-8 w-max border border-gray-900"><span className="font-semibold">Me contacter</span>
-    <ArrowUpRightIcon className="size-4"/>
-    </button>
+      <a 
+        href="mailto:floriandev74@gmail.com?subject=Je veux mon site incroyable !"
+        className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 mt-8 w-max border border-gray-900 hover:bg-gray-800 transition-colors"
+      >
+        <span className="font-semibold">Me contacter</span>
+        <ArrowUpRightIcon className="size-4"/>
+      </a>
     </div>
     </div>
   </div>
