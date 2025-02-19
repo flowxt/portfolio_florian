@@ -37,11 +37,11 @@ const portfolioProjects = [
   {
   company: "OpenClassrooms",
   year: "2024",
-  title: "App fitness",
+  title: "App fitness (desktop only)",
   results: [
     { title: "Amélioration de l'expérience utilisateur" },
     { title: "Augmentation de la vitesse du site" },
-    { title: "Augmentation du trafic mobile" },
+    { title: "Augmentation du trafic mobile." },
   ],
   link: "https://sport-see-oc.vercel.app/",
   image: sportSee,
