@@ -53,7 +53,7 @@ export const TestimonialsSection = () => {
 {[...new Array(2)].fill(0).map((_, index) => (
   <Fragment key={index}>
     {testimonials.map((testimonial) => (
-  <Card key={testimonial.name} className="max-w-xs md:max-w-md md:p-8 hover:-rotate-3 transition duration-300">
+  <Card key={testimonial.name} className="max-w-xs md:max-w-md p-6 md:p-8 hover:-rotate-3 transition duration-300">
     <div className="flex gap-4 items-center">
       <div className="size-14 bg-gray-700 inline-flex rounded-full items-center justify-center flex-shrink-0">
         <Image 
