@@ -68,7 +68,7 @@ export const HeroSection = () => {
           <ArrowDown className='size-4'/>
         </button>
         <a 
-  href="mailto:floriandev74@gmail.com?subject=Nouveau%20Projet" 
+  href="#contact" 
   className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl"
 >
   <span>👋</span>
