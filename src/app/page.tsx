@@ -13,7 +13,7 @@ export default function Home() {
       <ProjectsSection />
       <TapeSection />
       <TestimonialsSection />
-      {/* <AboutSection /> */}
+      <AboutSection />
     </div>
   );
 }
