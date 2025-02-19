@@ -7,8 +7,19 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 const calistoga = Calistoga({ subsets: ['latin'], variable: '--font-serif', weight: ["400"], });
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
-  description: "Portfolio de Florian, présentant ses projets et son parcours.",
+  title: "Florian BARJON | Développeur Front-end React & Next.js",
+  description: "Développeur web spécialisé en React et Next.js. Création de sites web performants et responsifs. Basé en Haute-Savoie, France.",
+  keywords: [
+    "développeur web",
+    "front-end",
+    "React",
+    "Next.js",
+    "Haute-Savoie",
+    "développeur React",
+    "freelance",
+    "création site web",
+    "Florian BARJON"
+  ],
 };
 
 export default function RootLayout({
