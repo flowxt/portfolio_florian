@@ -100,7 +100,7 @@ export const AboutSection = () => {
       <div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">
 
       <Card className="h-[320px] md:col-span-2 lg:col-span-1">
-        <CardHeader title="Mes livres" description="Explorez les livres qui influencent ma manière de penser" />
+        <CardHeader title="Mes livres" description="Explorez les livres qui me passionnent tant" />
    
 <div className="w-40 mx-auto mt-2 md:mt-0">
 <Image src={bookImage} alt="livre de karine giebel" />
@@ -136,7 +136,7 @@ itemsWrapperClassName="-translate-x-1/2"
 </div>
 
       </Card>
-      <Card className="h-[320px] p-0 relative col-span-2 lg:col-span-1">
+      <Card className="h-[320px] p-0 relative md:col-span-2 lg:col-span-1">
 <Image src={mapImage} alt="carte du 74800" className="h-full w-full object-cover" />
 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-20 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 after:content-[''] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full after:outline-gray-950/30">
 <Image src={smileMemoji} alt="memoji souriant" className="size-20" />
