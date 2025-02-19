@@ -37,7 +37,7 @@ const portfolioProjects = [
   {
   company: "OpenClassrooms",
   year: "2024",
-  title: "App fitness (desktop only)",
+  title: "App fitness (desktop)",
   results: [
     { title: "Amélioration de l'expérience utilisateur" },
     { title: "Augmentation de la vitesse du site" },
