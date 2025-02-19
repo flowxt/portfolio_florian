@@ -120,7 +120,7 @@ itemsWrapperClassName="-translate-x-1/2"
       </Card>
       </div>
       <div className="grid gap-8 grid-cols-1 md:grid-cols-5 lg:grid-cols-3">
-      <Card className="h-[320px] p-0 flex flex-col col-span-3 lg:col-span-2">
+      <Card className="h-[320px] p-0 flex flex-col md:col-span-3 lg:col-span-2">
         <CardHeader title="Mes passions" 
         description="Explorez mes passions et inspirations au delà du digital."
         className="px-6 py-6"
