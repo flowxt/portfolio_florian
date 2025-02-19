@@ -20,6 +20,34 @@ export const metadata: Metadata = {
     "création site web",
     "Florian BARJON"
   ],
+  authors: [{ name: "Florian BARJON" }],
+  creator: "Florian BARJON",
+  publisher: "Florian BARJON",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true
+    }
+  },
+  openGraph: {
+    type: "website",
+    locale: "fr_FR",
+    url: "https://portfolio-florian-rose.vercel.app",
+    title: "Florian BARJON | Développeur Front-end React & Next.js",
+    description: "Développeur web spécialisé en React et Next.js. Création de sites web performants et responsifs. Basé en Haute-Savoie, France.",
+    siteName: "Portfolio de Florian BARJON",
+    images: [{
+      url: "/og-image.jpg", // Ajoutez une image OpenGraph si vous en avez une
+      width: 1200,
+      height: 630,
+      alt: "Florian BARJON - Développeur Front-end"
+    }]
+  },
+  alternates: {
+    canonical: "https://portfolio-florian-rose.vercel.app"
+  },
 };
 
 export default function RootLayout({
@@ -28,7 +56,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <body className={twMerge(
         inter.variable, calistoga.variable, 
         "bg-gray-900 text-white antialiased font-sans"
