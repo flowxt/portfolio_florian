@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 const calistoga = Calistoga({ subsets: ['latin'], variable: '--font-serif', weight: ["400"], });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://portfolio-florian-rose.vercel.app'),
   title: "Florian BARJON | Développeur Front-end React & Next.js",
   description: "Développeur web spécialisé en React et Next.js. Création de sites web performants et responsifs. Basé en Haute-Savoie, France.",
   keywords: [
