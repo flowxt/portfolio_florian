@@ -72,7 +72,7 @@ export const HeroSection = () => {
   </a>
   <a 
     href="#contact" 
-    className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl"
+    className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl z-50"
   >
     <span>👋</span>
     <span className="font-semibold">Contactez-moi</span>
