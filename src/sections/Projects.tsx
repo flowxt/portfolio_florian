@@ -7,7 +7,9 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 // import grainImage from "@/assets/images/grain.jpg";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
-import sportSee from "@/assets/images/sportsee.png";
+
+import cinema from "@/assets/images/cinema-front.png";
+import harmonie from "@/assets/images/harmonie.png";
 
 const portfolioProjects = [
   {
@@ -35,16 +37,28 @@ const portfolioProjects = [
     image: kris,
   },
   {
-  company: "OpenClassrooms",
-  year: "2024",
-  title: "App fitness (desktop)",
+  company: "Atypik Code",
+  year: "2025",
+  title: "App cinema",
   results: [
     { title: "Amélioration de l'expérience utilisateur" },
     { title: "Augmentation de la vitesse du site" },
     { title: "Augmentation du trafic mobile." },
   ],
-  link: "https://sport-see-oc.vercel.app/",
-  image: sportSee,
+  link: "https://cinema-blue-delta.vercel.app",
+  image: cinema,
+},
+{
+  company: "Harmonie et Sens",
+  year: "2025",
+  title: "Harmonie et Sens",
+  results: [
+    { title: "Expension des clients" },
+    { title: "Augmentation des ventes" },
+    { title: "Visibilité de la marque accrue" },
+  ],
+  link: "https://www.harmonieetsens74.fr",
+  image: harmonie,
 },
 ];
 
