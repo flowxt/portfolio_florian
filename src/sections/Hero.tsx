@@ -67,7 +67,7 @@ export const HeroSection = () => {
     href="#projets" 
     className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl"
   >
-    <span className="font-semibold">Explores mes projets</span>
+    <span className="font-semibold">Explorer mes projets</span>
     <ArrowDown className='size-4'/>
   </a>
   <a 
